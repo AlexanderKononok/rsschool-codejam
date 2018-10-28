@@ -1,5 +1,5 @@
 'use strict';
-function sumOfOther(arr) {
+module.exports = function sumOfOther(arr) {
   let sum = 0;
   const result = [];
   let arrLength = arr.length;
@@ -10,4 +10,4 @@ function sumOfOther(arr) {
     result[i] = sum - arr[i];
   }
   return result;
-}
+};
